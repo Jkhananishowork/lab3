@@ -209,7 +209,7 @@ label {
 
 /* styling for background */
 body {
-   font-family: Arial, sans-serif;
+   font-family: "Josefin Slab", Arial, serif;
    background-color: #e0e0e0;
    display: flex;
    justify-content: center;
