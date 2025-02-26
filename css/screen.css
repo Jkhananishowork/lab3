@@ -298,6 +298,13 @@ input[type="checkbox"] {
    margin-right: 10px;
 }
 
+.input-age-verification { 
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   flex-wrap: nowrap;
+}
+
 /* layout for desktop */
 @media (min-width: 768px) {
    form {
