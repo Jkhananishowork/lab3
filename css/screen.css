@@ -234,7 +234,7 @@ form {
 
 /* label */ 
 label {
-   font-size: 1rem
+   font-size: 1rem;
    font-weight: 500;
    color: #333;
    display: block;
@@ -246,7 +246,7 @@ input[type="email"],
 input[type="text"] {
    width: 100%;
    padding: 14px;
-   border: 2px solid transparent;
+   border: 2px solid #ccc;
    border-radius: 8px;
    background: white; 
    font-size: 1rem;
@@ -259,10 +259,11 @@ input[type="text"]:focus {
    border-color: #acacac;
    box-shadow: 0 0 10px rgba(172, 172, 172, 0.8);
    outline: none;
+   background: white;
 }
 /* styling for h1 */
 h1 {
-   font-size: 2rem;
+   font-size: 2.5rem;
    font-weight: 700;
    text-align: center;
    color: #222;
@@ -272,7 +273,7 @@ h1 {
 }
 
 /* input */
-input[type"submit"] {
+input[type="submit"] {
    width: 100%;
    padding: 12px;
    background: #666;
@@ -280,7 +281,7 @@ input[type"submit"] {
    border: none;
    border-radius: 5px;
    cursor: pointer;
-   transition: background 0.3s;
+   transition: background 0.3s, color 0.3s;
 }
 
 input[type="submit"]:hover {
