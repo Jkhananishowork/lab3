@@ -347,5 +347,10 @@ form {
     margin: 0;
    }
 
+   form ol input[type="email"],
+   form ol input[type="text"],
+   form ol input[type="submit"] {
+    width: 80%;
+   }
 
 }
