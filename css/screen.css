@@ -270,16 +270,15 @@ h1 {
 
 /* input */
 input[type="submit"] {
-   width: 80%;
+   width: 100%;
    padding: 12px;
    background: #666;
    color: white;
    border: none;
    border-radius: 5px;
    cursor: pointer;
-   align-items: center;
    transition: background 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
-   margin: 0 auto;
+   margin-top: 10px;
 }
 
 input[type="submit"]:hover {
