@@ -270,14 +270,16 @@ h1 {
 
 /* input */
 input[type="submit"] {
-   width: 100%;
+   width: 80%;
    padding: 12px;
    background: #666;
    color: white;
    border: none;
    border-radius: 5px;
    cursor: pointer;
+   align-items: center;
    transition: background 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
+   margin: 0 auto;
 }
 
 input[type="submit"]:hover {
@@ -299,9 +301,10 @@ input[type="checkbox"] {
    position: relative;
 }
 
-input[type="checkbox"]:checked {
-  background-color: #000000;
+input[type="checkbox"]:hover {
+  background-color: #0065d8;
   border-color: #000000;
+  transition: all 0.3s ease-in-out;
 }
 
 
