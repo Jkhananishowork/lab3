@@ -229,7 +229,6 @@ form {
    width: 95%;
    max-width: 600px;
    margin: 20px auto;
-
    display: flex;
    flex-direction: column;
 }
@@ -257,13 +256,7 @@ input[type="text"] {
    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
-input[type="email"]:focus,
-input[type="text"]:focus {
-   border-color: #acacac;
-   box-shadow: 0 0 10px rgba(172, 172, 172, 0.8);
-   outline: none;
-   background: white;
-}
+
 /* styling for h1 */
 h1 {
    font-size: 2.5rem;
@@ -284,18 +277,31 @@ input[type="submit"] {
    border: none;
    border-radius: 5px;
    cursor: pointer;
-   transition: background 0.3s, color 0.3s;
+   transition: background 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 input[type="submit"]:hover {
-   background: #555;
+   background: #000000;
+   color: white;
+   transform: scale(1.10);
+   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 /* checkbox */
 input[type="checkbox"] {
-   width: auto;
+   width: 20px;
    margin-right: 10px;
    cursor: pointer;
+   height: 20px;
+   border: 2px solid;
+   border-radius: 5px;
+   display: inline-block;
+   position: relative;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #000000;
+  border-color: #000000;
 }
 
 
